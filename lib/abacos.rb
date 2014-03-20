@@ -1,5 +1,14 @@
+require "savon"
+require "abacos/base"
+require "abacos/order"
 require "abacos/version"
 
 module Abacos
-  # Your code goes here...
+  def self.config!(config)
+    @config = config
+  end
+
+  def self.config
+    @config
+  end
 end
