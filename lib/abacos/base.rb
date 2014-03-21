@@ -17,15 +17,11 @@ module Abacos
     end
 
     def self.endpoint
-      "http://200.201.203.131:#{port}/abacoswebsvc"
+      Abacos.config['endpoint']
     end
 
     def self.token
-      Abacos.config[:token]
-    end
-
-    def self.port
-      Abacos.config[:sandbox] ? "8034" : "8046"
+      Abacos.config['token']
     end
   end
 end

@@ -13,4 +13,4 @@ end
 RSpec.configure do |config|
 end
 
-Abacos.config! token: File.read('spec/token').strip, sandbox: true
+Abacos.config! YAML.load_file("spec/config.yml")
