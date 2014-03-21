@@ -1,7 +1,7 @@
 require "savon"
 require "abacos/base"
 require "abacos/order"
-require "abacos/version"
+require "abacos/product"
 
 module Abacos
   def self.config!(config)

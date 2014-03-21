@@ -6,7 +6,7 @@ module Abacos
       @ws = ws
     end
 
-    def self.call(method, params)
+    def self.call(method, params = {})
       Response.new client.call(method, message: { chave_identificacao: token }.merge(params)).body["#{method}_response".to_sym]["#{method}_result".to_sym]
     end
 
