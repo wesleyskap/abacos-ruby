@@ -11,7 +11,7 @@ module Abacos
     end
 
     def self.client
-      @client ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{@ws}.asmx?wsdl" do
+      @client ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{@ws}.asmx?wsdl", log: false do
         convert_request_keys_to :camelcase
       end
     end
