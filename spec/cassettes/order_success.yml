@@ -29,7 +29,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 20 Mar 2014 00:10:52 GMT
+      - Thu, 27 Mar 2014 19:00:30 GMT
       Content-Length:
       - '64214'
       X-Cache:
@@ -1471,7 +1471,7 @@ http_interactions:
         d2Vic3ZjL0FiYWNvc1dTUGVkaWRvcy5hc214IiAvPg0KICAgIDwvd3NkbDpw
         b3J0Pg0KICA8L3dzZGw6c2VydmljZT4NCjwvd3NkbDpkZWZpbml0aW9ucz4=
     http_version: 
-  recorded_at: Thu, 20 Mar 2014 00:10:53 GMT
+  recorded_at: Thu, 27 Mar 2014 19:00:42 GMT
 - request:
     method: post
     uri: http://200.201.203.131:8034/abacoswebsvc/AbacosWSPedidos.asmx
@@ -1479,7 +1479,7 @@ http_interactions:
       encoding: UTF-8
       string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><env:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:tns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"
-        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:InserirPedido><tns:ChaveIdentificacao>FD803D46-5C5E-4754-930C-358446DFA79E</tns:ChaveIdentificacao><tns:ListaDePedidos><tns:DadosPedidos><tns:NumeroDoPedido>1395274253</tns:NumeroDoPedido><tns:CPFouCNPJ>15436940000286</tns:CPFouCNPJ><tns:ValorPedido>1025.4</tns:ValorPedido><tns:DataVenda>31012014
+        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:InserirPedido><tns:ChaveIdentificacao>FD803D46-5C5E-4754-930C-358446DFA79E</tns:ChaveIdentificacao><tns:ListaDePedidos><tns:DadosPedidos><tns:NumeroDoPedido>125325437</tns:NumeroDoPedido><tns:CPFouCNPJ>15436940000286</tns:CPFouCNPJ><tns:ValorPedido>1025.4</tns:ValorPedido><tns:DataVenda>31012014
         12:34</tns:DataVenda><tns:Transportadora>ENTREGA</tns:Transportadora><tns:Canal>Internet</tns:Canal><tns:Subcanal>Amazon</tns:Subcanal><tns:FormasDePagamento><tns:DadosPedidosFormaPgto><tns:FormaPagamentoCodigo>12</tns:FormaPagamentoCodigo><tns:Valor>1025.4</tns:Valor></tns:DadosPedidosFormaPgto></tns:FormasDePagamento><tns:Itens><tns:DadosPedidosItem><tns:CodigoProduto>261578</tns:CodigoProduto><tns:QuantidadeProduto>11</tns:QuantidadeProduto><tns:PrecoUnitario>39.9</tns:PrecoUnitario></tns:DadosPedidosItem><tns:DadosPedidosItem><tns:CodigoProduto>262654</tns:CodigoProduto><tns:QuantidadeProduto>15</tns:QuantidadeProduto><tns:PrecoUnitario>39.1</tns:PrecoUnitario></tns:DadosPedidosItem></tns:Itens></tns:DadosPedidos></tns:ListaDePedidos></tns:InserirPedido></env:Body></env:Envelope>"
     headers:
       Soapaction:
@@ -1487,7 +1487,7 @@ http_interactions:
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '1445'
+      - '1444'
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -1510,9 +1510,9 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 20 Mar 2014 00:10:52 GMT
+      - Thu, 27 Mar 2014 19:00:30 GMT
       Content-Length:
-      - '1459'
+      - '1458'
       X-Cache:
       - MISS from localhost
       X-Cache-Lookup:
@@ -1536,27 +1536,27 @@ http_interactions:
         PERlc2NyaWNhbz5PcGVyYcOnw6NvICJJbmNsdWlyIHBlZGlkb3MiIGVmZXR1
         YWRhIGNvbSBzdWNlc3NvLjwvRGVzY3JpY2FvPjxUaXBvPnRkcmVTdWNlc3Nv
         PC9UaXBvPjwvUmVzdWx0YWRvT3BlcmFjYW8+PFJvd3M+PERhZG9zUGVkaWRv
-        c1Jlc3VsdGFkbz48TnVtZXJvRG9QZWRpZG8+MTM5NTI3NDI1MzwvTnVtZXJv
-        RG9QZWRpZG8+PFJlc3VsdGFkbz48Q29kaWdvPjIwMDAwMjwvQ29kaWdvPjxE
-        ZXNjcmljYW8+T0suPC9EZXNjcmljYW8+PFRpcG8+dGRyZVN1Y2Vzc288L1Rp
-        cG8+PC9SZXN1bHRhZG8+PEZvcm1hc0RlUGFnYW1lbnRvUmVzdWx0YWRvPjxE
-        YWRvc1BlZGlkb3NGb3JtYVBndG9SZXN1bHRhZG8+PEZvcm1hUGFnYW1lbnRv
-        PjEyPC9Gb3JtYVBhZ2FtZW50bz48UmVzdWx0YWRvPjxDb2RpZ28+MjAwMDAy
-        PC9Db2RpZ28+PERlc2NyaWNhbz5PSy48L0Rlc2NyaWNhbz48VGlwbz50ZHJl
-        U3VjZXNzbzwvVGlwbz48L1Jlc3VsdGFkbz48L0RhZG9zUGVkaWRvc0Zvcm1h
-        UGd0b1Jlc3VsdGFkbz48L0Zvcm1hc0RlUGFnYW1lbnRvUmVzdWx0YWRvPjxJ
-        dGVuc1Jlc3VsdGFkbz48RGFkb3NQZWRpZG9zSXRlbVJlc3VsdGFkbz48Q29k
-        aWdvUHJvZHV0bz4yNjE1Nzg8L0NvZGlnb1Byb2R1dG8+PFJlc3VsdGFkbz48
-        Q29kaWdvPjIwMDAwMjwvQ29kaWdvPjxEZXNjcmljYW8+T0suPC9EZXNjcmlj
-        YW8+PFRpcG8+dGRyZVN1Y2Vzc288L1RpcG8+PC9SZXN1bHRhZG8+PC9EYWRv
-        c1BlZGlkb3NJdGVtUmVzdWx0YWRvPjxEYWRvc1BlZGlkb3NJdGVtUmVzdWx0
-        YWRvPjxDb2RpZ29Qcm9kdXRvPjI2MjY1NDwvQ29kaWdvUHJvZHV0bz48UmVz
-        dWx0YWRvPjxDb2RpZ28+MjAwMDAyPC9Db2RpZ28+PERlc2NyaWNhbz5PSy48
-        L0Rlc2NyaWNhbz48VGlwbz50ZHJlU3VjZXNzbzwvVGlwbz48L1Jlc3VsdGFk
-        bz48L0RhZG9zUGVkaWRvc0l0ZW1SZXN1bHRhZG8+PC9JdGVuc1Jlc3VsdGFk
-        bz48L0RhZG9zUGVkaWRvc1Jlc3VsdGFkbz48L1Jvd3M+PC9JbnNlcmlyUGVk
-        aWRvUmVzdWx0PjwvSW5zZXJpclBlZGlkb1Jlc3BvbnNlPjwvc29hcDpCb2R5
-        Pjwvc29hcDpFbnZlbG9wZT4NCg==
+        c1Jlc3VsdGFkbz48TnVtZXJvRG9QZWRpZG8+MTI1MzI1NDM3PC9OdW1lcm9E
+        b1BlZGlkbz48UmVzdWx0YWRvPjxDb2RpZ28+MjAwMDAyPC9Db2RpZ28+PERl
+        c2NyaWNhbz5PSy48L0Rlc2NyaWNhbz48VGlwbz50ZHJlU3VjZXNzbzwvVGlw
+        bz48L1Jlc3VsdGFkbz48Rm9ybWFzRGVQYWdhbWVudG9SZXN1bHRhZG8+PERh
+        ZG9zUGVkaWRvc0Zvcm1hUGd0b1Jlc3VsdGFkbz48Rm9ybWFQYWdhbWVudG8+
+        MTI8L0Zvcm1hUGFnYW1lbnRvPjxSZXN1bHRhZG8+PENvZGlnbz4yMDAwMDI8
+        L0NvZGlnbz48RGVzY3JpY2FvPk9LLjwvRGVzY3JpY2FvPjxUaXBvPnRkcmVT
+        dWNlc3NvPC9UaXBvPjwvUmVzdWx0YWRvPjwvRGFkb3NQZWRpZG9zRm9ybWFQ
+        Z3RvUmVzdWx0YWRvPjwvRm9ybWFzRGVQYWdhbWVudG9SZXN1bHRhZG8+PEl0
+        ZW5zUmVzdWx0YWRvPjxEYWRvc1BlZGlkb3NJdGVtUmVzdWx0YWRvPjxDb2Rp
+        Z29Qcm9kdXRvPjI2MTU3ODwvQ29kaWdvUHJvZHV0bz48UmVzdWx0YWRvPjxD
+        b2RpZ28+MjAwMDAyPC9Db2RpZ28+PERlc2NyaWNhbz5PSy48L0Rlc2NyaWNh
+        bz48VGlwbz50ZHJlU3VjZXNzbzwvVGlwbz48L1Jlc3VsdGFkbz48L0RhZG9z
+        UGVkaWRvc0l0ZW1SZXN1bHRhZG8+PERhZG9zUGVkaWRvc0l0ZW1SZXN1bHRh
+        ZG8+PENvZGlnb1Byb2R1dG8+MjYyNjU0PC9Db2RpZ29Qcm9kdXRvPjxSZXN1
+        bHRhZG8+PENvZGlnbz4yMDAwMDI8L0NvZGlnbz48RGVzY3JpY2FvPk9LLjwv
+        RGVzY3JpY2FvPjxUaXBvPnRkcmVTdWNlc3NvPC9UaXBvPjwvUmVzdWx0YWRv
+        PjwvRGFkb3NQZWRpZG9zSXRlbVJlc3VsdGFkbz48L0l0ZW5zUmVzdWx0YWRv
+        PjwvRGFkb3NQZWRpZG9zUmVzdWx0YWRvPjwvUm93cz48L0luc2VyaXJQZWRp
+        ZG9SZXN1bHQ+PC9JbnNlcmlyUGVkaWRvUmVzcG9uc2U+PC9zb2FwOkJvZHk+
+        PC9zb2FwOkVudmVsb3BlPg0K
     http_version: 
-  recorded_at: Thu, 20 Mar 2014 00:10:53 GMT
+  recorded_at: Thu, 27 Mar 2014 19:00:42 GMT
 recorded_with: VCR 2.8.0
