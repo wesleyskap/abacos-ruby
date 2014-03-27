@@ -3,6 +3,7 @@ require "abacos/base"
 require "abacos/inventory"
 require "abacos/order"
 require "abacos/product"
+require "abacos/response"
 
 module Abacos
   def self.config!(config)

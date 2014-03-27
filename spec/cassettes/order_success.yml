@@ -29,7 +29,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 27 Mar 2014 19:00:30 GMT
+      - Thu, 27 Mar 2014 20:12:18 GMT
       Content-Length:
       - '64214'
       X-Cache:
@@ -1471,7 +1471,7 @@ http_interactions:
         d2Vic3ZjL0FiYWNvc1dTUGVkaWRvcy5hc214IiAvPg0KICAgIDwvd3NkbDpw
         b3J0Pg0KICA8L3dzZGw6c2VydmljZT4NCjwvd3NkbDpkZWZpbml0aW9ucz4=
     http_version: 
-  recorded_at: Thu, 27 Mar 2014 19:00:42 GMT
+  recorded_at: Thu, 27 Mar 2014 20:12:31 GMT
 - request:
     method: post
     uri: http://200.201.203.131:8034/abacoswebsvc/AbacosWSPedidos.asmx
@@ -1479,7 +1479,7 @@ http_interactions:
       encoding: UTF-8
       string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><env:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:tns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"
-        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:InserirPedido><tns:ChaveIdentificacao>FD803D46-5C5E-4754-930C-358446DFA79E</tns:ChaveIdentificacao><tns:ListaDePedidos><tns:DadosPedidos><tns:NumeroDoPedido>125325437</tns:NumeroDoPedido><tns:CPFouCNPJ>15436940000286</tns:CPFouCNPJ><tns:ValorPedido>1025.4</tns:ValorPedido><tns:DataVenda>31012014
+        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:InserirPedido><tns:ChaveIdentificacao>FD803D46-5C5E-4754-930C-358446DFA79E</tns:ChaveIdentificacao><tns:ListaDePedidos><tns:DadosPedidos><tns:NumeroDoPedido>125325440</tns:NumeroDoPedido><tns:CPFouCNPJ>15436940000286</tns:CPFouCNPJ><tns:ValorPedido>1025.4</tns:ValorPedido><tns:DataVenda>31012014
         12:34</tns:DataVenda><tns:Transportadora>ENTREGA</tns:Transportadora><tns:Canal>Internet</tns:Canal><tns:Subcanal>Amazon</tns:Subcanal><tns:FormasDePagamento><tns:DadosPedidosFormaPgto><tns:FormaPagamentoCodigo>12</tns:FormaPagamentoCodigo><tns:Valor>1025.4</tns:Valor></tns:DadosPedidosFormaPgto></tns:FormasDePagamento><tns:Itens><tns:DadosPedidosItem><tns:CodigoProduto>261578</tns:CodigoProduto><tns:QuantidadeProduto>11</tns:QuantidadeProduto><tns:PrecoUnitario>39.9</tns:PrecoUnitario></tns:DadosPedidosItem><tns:DadosPedidosItem><tns:CodigoProduto>262654</tns:CodigoProduto><tns:QuantidadeProduto>15</tns:QuantidadeProduto><tns:PrecoUnitario>39.1</tns:PrecoUnitario></tns:DadosPedidosItem></tns:Itens></tns:DadosPedidos></tns:ListaDePedidos></tns:InserirPedido></env:Body></env:Envelope>"
     headers:
       Soapaction:
@@ -1510,7 +1510,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Thu, 27 Mar 2014 19:00:30 GMT
+      - Thu, 27 Mar 2014 20:12:24 GMT
       Content-Length:
       - '1458'
       X-Cache:
@@ -1536,7 +1536,7 @@ http_interactions:
         PERlc2NyaWNhbz5PcGVyYcOnw6NvICJJbmNsdWlyIHBlZGlkb3MiIGVmZXR1
         YWRhIGNvbSBzdWNlc3NvLjwvRGVzY3JpY2FvPjxUaXBvPnRkcmVTdWNlc3Nv
         PC9UaXBvPjwvUmVzdWx0YWRvT3BlcmFjYW8+PFJvd3M+PERhZG9zUGVkaWRv
-        c1Jlc3VsdGFkbz48TnVtZXJvRG9QZWRpZG8+MTI1MzI1NDM3PC9OdW1lcm9E
+        c1Jlc3VsdGFkbz48TnVtZXJvRG9QZWRpZG8+MTI1MzI1NDQwPC9OdW1lcm9E
         b1BlZGlkbz48UmVzdWx0YWRvPjxDb2RpZ28+MjAwMDAyPC9Db2RpZ28+PERl
         c2NyaWNhbz5PSy48L0Rlc2NyaWNhbz48VGlwbz50ZHJlU3VjZXNzbzwvVGlw
         bz48L1Jlc3VsdGFkbz48Rm9ybWFzRGVQYWdhbWVudG9SZXN1bHRhZG8+PERh
@@ -1558,5 +1558,5 @@ http_interactions:
         ZG9SZXN1bHQ+PC9JbnNlcmlyUGVkaWRvUmVzcG9uc2U+PC9zb2FwOkJvZHk+
         PC9zb2FwOkVudmVsb3BlPg0K
     http_version: 
-  recorded_at: Thu, 27 Mar 2014 19:00:42 GMT
+  recorded_at: Thu, 27 Mar 2014 20:12:35 GMT
 recorded_with: VCR 2.8.0

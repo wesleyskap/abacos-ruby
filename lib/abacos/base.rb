@@ -1,14 +1,24 @@
-require 'abacos/response'
-
 module Abacos
   class Base
+    attr_reader :response
+
     def self.ws=(ws)
       @ws = ws
     end
 
     def self.call(method, params)
-      Response.new client.call(method, message: params).body["#{method}_response".to_sym]["#{method}_result".to_sym]
+      Response.new method, client.call(method, message: params)
     end
+
+    def initialize(response)
+      @response = response
+    end
+
+    def persisted?
+      response.success?
+    end
+
+    private
 
     def self.client
       @client ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{@ws}.asmx?wsdl", log: false do
