@@ -6,8 +6,8 @@ module Abacos
       @ws = ws
     end
 
-    def self.call(method, params = {})
-      Response.new client.call(method, message: { chave_identificacao: token }.merge(params)).body["#{method}_response".to_sym]["#{method}_result".to_sym]
+    def self.call(method, params)
+      Response.new client.call(method, message: params).body["#{method}_response".to_sym]["#{method}_result".to_sym]
     end
 
     def self.client
@@ -17,11 +17,7 @@ module Abacos
     end
 
     def self.endpoint
-      Abacos.config['endpoint']
-    end
-
-    def self.token
-      Abacos.config['token']
+      Abacos.config[:endpoint]
     end
   end
 end

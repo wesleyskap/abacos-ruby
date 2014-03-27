@@ -1,5 +1,6 @@
 require "savon"
 require "abacos/base"
+require "abacos/inventory"
 require "abacos/order"
 require "abacos/product"
 

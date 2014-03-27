@@ -13,4 +13,5 @@ end
 RSpec.configure do |config|
 end
 
-Abacos.config! YAML.load_file("spec/config.yml")
+ABACOS_CONFIG = YAML.load_file("spec/config.yml")
+Abacos.config! endpoint: ABACOS_CONFIG['endpoint']
