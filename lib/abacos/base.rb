@@ -27,7 +27,7 @@ module Abacos
     end
 
     def self.endpoint
-      Abacos.config[:endpoint]
+      Abacos.config['ws']['endpoint']
     end
   end
 end
