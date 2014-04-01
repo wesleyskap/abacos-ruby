@@ -3,6 +3,7 @@ require "tiny_tds"
 require "abacos/base"
 require "abacos/inventory"
 require "abacos/order"
+require "abacos/payment_method"
 require "abacos/product"
 require "abacos/response"
 

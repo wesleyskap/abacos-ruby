@@ -14,6 +14,10 @@ module Abacos
       db.execute(query).map { |params| new params }
     end
 
+    def initialize(params)
+      params.each { |key, value| instance_variable_set "@#{key}", value }
+    end
+
     def persisted?
       response.success?
     end
