@@ -2,16 +2,16 @@ module Abacos
   class Base
     attr_reader :response
 
-    def self.ws=(ws)
-      @ws = ws
+    def self.ws=(service)
+      @service = service
     end
 
     def self.call(method, params)
-      Response.new method, client.call(method, message: params)
+      Response.new method, ws.call(method, message: params)
     end
 
-    def initialize(response)
-      @response = response
+    def self.execute(query)
+      db.execute(query).map { |params| new params }
     end
 
     def persisted?
@@ -20,10 +20,14 @@ module Abacos
 
     private
 
-    def self.client
-      @client ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{@ws}.asmx?wsdl", log: false do
+    def self.ws
+      @ws ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{@service}.asmx?wsdl", log: false do
         convert_request_keys_to :camelcase
       end
+    end
+
+    def self.db
+      @db ||= TinyTds::Client.new(Hash[Abacos.config['db'].map{ |k, v| [k.to_sym, v] }])
     end
 
     def self.endpoint

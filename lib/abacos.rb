@@ -1,4 +1,5 @@
 require "savon"
+require "tiny_tds"
 require "abacos/base"
 require "abacos/inventory"
 require "abacos/order"

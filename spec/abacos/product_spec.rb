@@ -8,4 +8,10 @@ describe Abacos::Product do
       end
     end
   end
+
+  describe ".find_by_ean" do
+    it "should find a product with external id" do
+      Abacos::Product.find_by_ean("9788525045768").codigo_produto.should == "135004"
+    end
+  end
 end
