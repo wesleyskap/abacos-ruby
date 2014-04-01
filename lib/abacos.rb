@@ -1,6 +1,7 @@
 require "savon"
 require "tiny_tds"
 require "abacos/base"
+require "abacos/carrier"
 require "abacos/inventory"
 require "abacos/order"
 require "abacos/payment_condition"
