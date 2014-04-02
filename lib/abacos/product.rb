@@ -1,10 +1,10 @@
 module Abacos
   class Product < Base
-    attr_reader :codigo_produto
+    attr_reader :codigo_barras, :codigo_produto
     self.ws = "Produtos"
 
     def self.updated(params)
-      call :produtos_disponiveis, params
+      call(:produtos_disponiveis, params).map { |params| new params }
     end
 
     def self.find_by_ean(ean)

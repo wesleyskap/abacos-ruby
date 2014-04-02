@@ -10,6 +10,10 @@ module Abacos
       Response.new method, ws.call(method, message: params)
     end
 
+    def self.create(method, params)
+      new response: call(method, params)
+    end
+
     def self.execute(query)
       db.execute(query).map { |params| new params }
     end
