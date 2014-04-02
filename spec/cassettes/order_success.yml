@@ -29,7 +29,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Wed, 02 Apr 2014 16:08:06 GMT
+      - Wed, 02 Apr 2014 23:20:41 GMT
       Content-Length:
       - '64214'
       X-Cache:
@@ -1471,7 +1471,7 @@ http_interactions:
         d2Vic3ZjL0FiYWNvc1dTUGVkaWRvcy5hc214IiAvPg0KICAgIDwvd3NkbDpw
         b3J0Pg0KICA8L3dzZGw6c2VydmljZT4NCjwvd3NkbDpkZWZpbml0aW9ucz4=
     http_version: 
-  recorded_at: Wed, 02 Apr 2014 16:08:25 GMT
+  recorded_at: Wed, 02 Apr 2014 23:21:01 GMT
 - request:
     method: post
     uri: http://200.201.203.131:8034/abacoswebsvc/AbacosWSPedidos.asmx
@@ -1479,15 +1479,15 @@ http_interactions:
       encoding: UTF-8
       string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><env:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:tns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"
-        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:InserirPedido><tns:ChaveIdentificacao>FD803D46-5C5E-4754-930C-358446DFA79E</tns:ChaveIdentificacao><tns:ListaDePedidos><tns:DadosPedidos><tns:NumeroDoPedido>125325440</tns:NumeroDoPedido><tns:CPFouCNPJ>15436940000286</tns:CPFouCNPJ><tns:ValorPedido>1025.4</tns:ValorPedido><tns:DataVenda>31012014
-        12:34</tns:DataVenda><tns:Transportadora>ENTREGA</tns:Transportadora><tns:Canal>Internet</tns:Canal><tns:Subcanal>Amazon</tns:Subcanal><tns:FormasDePagamento><tns:DadosPedidosFormaPgto><tns:FormaPagamentoCodigo>12</tns:FormaPagamentoCodigo><tns:Valor>1025.4</tns:Valor></tns:DadosPedidosFormaPgto></tns:FormasDePagamento><tns:Itens><tns:DadosPedidosItem><tns:CodigoProduto>261578</tns:CodigoProduto><tns:QuantidadeProduto>11</tns:QuantidadeProduto><tns:PrecoUnitario>39.9</tns:PrecoUnitario></tns:DadosPedidosItem><tns:DadosPedidosItem><tns:CodigoProduto>262654</tns:CodigoProduto><tns:QuantidadeProduto>15</tns:QuantidadeProduto><tns:PrecoUnitario>39.1</tns:PrecoUnitario></tns:DadosPedidosItem></tns:Itens></tns:DadosPedidos></tns:ListaDePedidos></tns:InserirPedido></env:Body></env:Envelope>"
+        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:InserirPedido><tns:ChaveIdentificacao>FD803D46-5C5E-4754-930C-358446DFA79E</tns:ChaveIdentificacao><tns:ListaDePedidos><tns:DadosPedidos><tns:NumeroDoPedido>125325441</tns:NumeroDoPedido><tns:CPFouCNPJ>15436940000286</tns:CPFouCNPJ><tns:ValorPedido>1025.4</tns:ValorPedido><tns:DataVenda>31012014
+        12:34</tns:DataVenda><tns:Transportadora>2</tns:Transportadora><tns:Canal>Internet</tns:Canal><tns:Subcanal>Amazon</tns:Subcanal><tns:FormasDePagamento><tns:DadosPedidosFormaPgto><tns:FormaPagamentoCodigo>12</tns:FormaPagamentoCodigo><tns:Valor>1025.4</tns:Valor></tns:DadosPedidosFormaPgto></tns:FormasDePagamento><tns:Itens><tns:DadosPedidosItem><tns:CodigoProduto>261578</tns:CodigoProduto><tns:QuantidadeProduto>11</tns:QuantidadeProduto><tns:PrecoUnitario>39.9</tns:PrecoUnitario></tns:DadosPedidosItem><tns:DadosPedidosItem><tns:CodigoProduto>262654</tns:CodigoProduto><tns:QuantidadeProduto>15</tns:QuantidadeProduto><tns:PrecoUnitario>39.1</tns:PrecoUnitario></tns:DadosPedidosItem></tns:Itens></tns:DadosPedidos></tns:ListaDePedidos></tns:InserirPedido></env:Body></env:Envelope>"
     headers:
       Soapaction:
       - "\"http://www.kplsolucoes.com.br/ABACOSWebService/InserirPedido\""
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '1444'
+      - '1438'
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -1510,9 +1510,9 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Wed, 02 Apr 2014 16:08:08 GMT
+      - Wed, 02 Apr 2014 23:20:44 GMT
       Content-Length:
-      - '1267'
+      - '1458'
       X-Cache:
       - MISS from localhost
       X-Cache-Lookup:
@@ -1532,27 +1532,31 @@ http_interactions:
         clBlZGlkb1Jlc3BvbnNlIHhtbG5zPSJodHRwOi8vd3d3LmtwbHNvbHVjb2Vz
         LmNvbS5ici9BQkFDT1NXZWJTZXJ2aWNlIj48SW5zZXJpclBlZGlkb1Jlc3Vs
         dD48VmVyc2FvV2ViU2VydmljZT41LjBCLjAwNTc8L1ZlcnNhb1dlYlNlcnZp
-        Y2U+PFJlc3VsdGFkb09wZXJhY2FvPjxDb2RpZ28+MTAwMDAxPC9Db2RpZ28+
-        PERlc2NyaWNhbz5PY29ycmVyYW0gZXJyb3MgZHVyYW50ZSBhIG9idGVuw6fD
-        o28gZGFzIGluZm9ybWHDp8O1ZXMgcGVydGluZW50ZXMgYSBsaXN0YSBkZSBp
-        dGVucy4gVmVyaWZpcXVlIG8gcmV0b3JubyBlbSBjYWRhIGl0ZW0gcGFyYSBt
-        YWlvcmVzIGRldGFsaGVzLjwvRGVzY3JpY2FvPjxUaXBvPnRkcmVBbGVydGE8
-        L1RpcG8+PC9SZXN1bHRhZG9PcGVyYWNhbz48Um93cz48RGFkb3NQZWRpZG9z
-        UmVzdWx0YWRvPjxOdW1lcm9Eb1BlZGlkbz4xMjUzMjU0NDA8L051bWVyb0Rv
-        UGVkaWRvPjxSZXN1bHRhZG8+PENvZGlnbz4zMDAwMDU8L0NvZGlnbz48RGVz
-        Y3JpY2FvPkEgZXhlY3XDp8OjbyBkYSByb3RpbmEgZ2Vyb3UgdW1hIGNyw610
-        aWNhLiBEZXRhbGhlczogKiBPcmlnZW06IEluY2x1aXIgcGVkaWRvcyAqIExp
-        bmhhIGVtIHF1ZSBvY29ycmV1IG8gZXJybzogMzYgKiBOb21lIGRvIG9iamV0
-        byBvbmRlIG9jb3JyZXUgbyBlcnJvOiBQR0VOX1BfUkFJU0VSUk9SICogQ8Oz
-        ZGlnbyBkZSBlcnJvIGRvIGJhbmNvIGRlIGRhZG9zOiA4ODEwNDwvRGVzY3Jp
-        Y2FvPjxUaXBvPnRkcmVFcnJvRGF0YUJhc2U8L1RpcG8+PEV4Y2VwdGlvbk1l
-        c3NhZ2U+SW50ZXJmYWNlID0gMjYgQ2xpZW50ZSA9IDE1NDM2OTQwMDAwMjg2
-        IE1zZyA9IHRyYW5zcG9ydGFkb3JhIC8gc2VydmljbyBkZSBlbnRyZWdhIChF
-        TlRSRUdBKSBuYW8gY2FkYXN0cmFkb3MNCkVycm8gYW8gY2FkYXN0cmFyIHBl
-        ZGlkbzwvRXhjZXB0aW9uTWVzc2FnZT48L1Jlc3VsdGFkbz48L0RhZG9zUGVk
-        aWRvc1Jlc3VsdGFkbz48L1Jvd3M+PC9JbnNlcmlyUGVkaWRvUmVzdWx0Pjwv
-        SW5zZXJpclBlZGlkb1Jlc3BvbnNlPjwvc29hcDpCb2R5Pjwvc29hcDpFbnZl
-        bG9wZT4NCg==
+        Y2U+PFJlc3VsdGFkb09wZXJhY2FvPjxDb2RpZ28+MjAwMDAxPC9Db2RpZ28+
+        PERlc2NyaWNhbz5PcGVyYcOnw6NvICJJbmNsdWlyIHBlZGlkb3MiIGVmZXR1
+        YWRhIGNvbSBzdWNlc3NvLjwvRGVzY3JpY2FvPjxUaXBvPnRkcmVTdWNlc3Nv
+        PC9UaXBvPjwvUmVzdWx0YWRvT3BlcmFjYW8+PFJvd3M+PERhZG9zUGVkaWRv
+        c1Jlc3VsdGFkbz48TnVtZXJvRG9QZWRpZG8+MTI1MzI1NDQxPC9OdW1lcm9E
+        b1BlZGlkbz48UmVzdWx0YWRvPjxDb2RpZ28+MjAwMDAyPC9Db2RpZ28+PERl
+        c2NyaWNhbz5PSy48L0Rlc2NyaWNhbz48VGlwbz50ZHJlU3VjZXNzbzwvVGlw
+        bz48L1Jlc3VsdGFkbz48Rm9ybWFzRGVQYWdhbWVudG9SZXN1bHRhZG8+PERh
+        ZG9zUGVkaWRvc0Zvcm1hUGd0b1Jlc3VsdGFkbz48Rm9ybWFQYWdhbWVudG8+
+        MTI8L0Zvcm1hUGFnYW1lbnRvPjxSZXN1bHRhZG8+PENvZGlnbz4yMDAwMDI8
+        L0NvZGlnbz48RGVzY3JpY2FvPk9LLjwvRGVzY3JpY2FvPjxUaXBvPnRkcmVT
+        dWNlc3NvPC9UaXBvPjwvUmVzdWx0YWRvPjwvRGFkb3NQZWRpZG9zRm9ybWFQ
+        Z3RvUmVzdWx0YWRvPjwvRm9ybWFzRGVQYWdhbWVudG9SZXN1bHRhZG8+PEl0
+        ZW5zUmVzdWx0YWRvPjxEYWRvc1BlZGlkb3NJdGVtUmVzdWx0YWRvPjxDb2Rp
+        Z29Qcm9kdXRvPjI2MTU3ODwvQ29kaWdvUHJvZHV0bz48UmVzdWx0YWRvPjxD
+        b2RpZ28+MjAwMDAyPC9Db2RpZ28+PERlc2NyaWNhbz5PSy48L0Rlc2NyaWNh
+        bz48VGlwbz50ZHJlU3VjZXNzbzwvVGlwbz48L1Jlc3VsdGFkbz48L0RhZG9z
+        UGVkaWRvc0l0ZW1SZXN1bHRhZG8+PERhZG9zUGVkaWRvc0l0ZW1SZXN1bHRh
+        ZG8+PENvZGlnb1Byb2R1dG8+MjYyNjU0PC9Db2RpZ29Qcm9kdXRvPjxSZXN1
+        bHRhZG8+PENvZGlnbz4yMDAwMDI8L0NvZGlnbz48RGVzY3JpY2FvPk9LLjwv
+        RGVzY3JpY2FvPjxUaXBvPnRkcmVTdWNlc3NvPC9UaXBvPjwvUmVzdWx0YWRv
+        PjwvRGFkb3NQZWRpZG9zSXRlbVJlc3VsdGFkbz48L0l0ZW5zUmVzdWx0YWRv
+        PjwvRGFkb3NQZWRpZG9zUmVzdWx0YWRvPjwvUm93cz48L0luc2VyaXJQZWRp
+        ZG9SZXN1bHQ+PC9JbnNlcmlyUGVkaWRvUmVzcG9uc2U+PC9zb2FwOkJvZHk+
+        PC9zb2FwOkVudmVsb3BlPg0K
     http_version: 
-  recorded_at: Wed, 02 Apr 2014 16:08:28 GMT
+  recorded_at: Wed, 02 Apr 2014 23:21:03 GMT
 recorded_with: VCR 2.8.0
