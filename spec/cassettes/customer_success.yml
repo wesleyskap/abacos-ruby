@@ -29,7 +29,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Tue, 01 Apr 2014 23:51:55 GMT
+      - Wed, 02 Apr 2014 16:09:07 GMT
       Content-Length:
       - '16693'
       X-Cache:
@@ -415,7 +415,7 @@ http_interactions:
         YnN2Yy9BYmFjb3NXU0NsaWVudGVzLmFzbXgiIC8+DQogICAgPC93c2RsOnBv
         cnQ+DQogIDwvd3NkbDpzZXJ2aWNlPg0KPC93c2RsOmRlZmluaXRpb25zPg==
     http_version: 
-  recorded_at: Tue, 01 Apr 2014 23:52:13 GMT
+  recorded_at: Wed, 02 Apr 2014 16:09:26 GMT
 - request:
     method: post
     uri: http://200.201.203.131:8034/abacoswebsvc/AbacosWSClientes.asmx
@@ -423,15 +423,15 @@ http_interactions:
       encoding: UTF-8
       string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><env:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:tns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"
-        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\"><env:Body><tns:CadastrarCliente><tns:ChaveIdentificacao>FD803D46-5C5E-4754-930C-358446DFA79E</tns:ChaveIdentificacao><tns:ListaDeClientes><tns:DadosClientes><tns:CPFouCNPJ>15436940000286</tns:CPFouCNPJ><tns:TipoPessoa>tpeFisica</tns:TipoPessoa><tns:Sexo>tseMasculino</tns:Sexo><tns:Nome>Ronaldo</tns:Nome><tns:Telefone>45225842</tns:Telefone><tns:Celular>73495254</tns:Celular><tns:DadosEndereco><tns:Logradouro>Rua
-        Peri, 100</tns:Logradouro><tns:ComplementoEndereco>casa azul</tns:ComplementoEndereco><tns:Bairro>Centro</tns:Bairro><tns:Municipio>Brasília</tns:Municipio><tns:Estado>SP</tns:Estado><tns:Cep>70675100</tns:Cep></tns:DadosEndereco></tns:DadosClientes></tns:ListaDeClientes></tns:CadastrarCliente></env:Body></env:Envelope>"
+        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\"><env:Body><tns:CadastrarCliente><tns:ChaveIdentificacao>FD803D46-5C5E-4754-930C-358446DFA79E</tns:ChaveIdentificacao><tns:ListaDeClientes><tns:DadosClientes><tns:CPFouCNPJ>15436940000286</tns:CPFouCNPJ><tns:TipoPessoa>tpeFisica</tns:TipoPessoa><tns:Sexo>tseMasculino</tns:Sexo><tns:Nome>Ronaldo</tns:Nome><tns:Telefone>45225842</tns:Telefone><tns:Celular>73495254</tns:Celular><tns:Endereco><tns:Logradouro>Rua
+        Peri, 100</tns:Logradouro><tns:ComplementoEndereco>casa azul</tns:ComplementoEndereco><tns:Bairro>Centro</tns:Bairro><tns:Municipio>Brasília</tns:Municipio><tns:Estado>SP</tns:Estado><tns:Cep>70675100</tns:Cep></tns:Endereco></tns:DadosClientes></tns:ListaDeClientes></tns:CadastrarCliente></env:Body></env:Envelope>"
     headers:
       Soapaction:
       - "\"http://www.kplsolucoes.com.br/ABACOSWebService/CadastrarCliente\""
       Content-Type:
       - text/xml;charset=UTF-8
       Content-Length:
-      - '1002'
+      - '992'
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -454,9 +454,9 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Tue, 01 Apr 2014 23:51:55 GMT
+      - Wed, 02 Apr 2014 16:09:11 GMT
       Content-Length:
-      - '1272'
+      - '792'
       X-Cache:
       - MISS from localhost
       X-Cache-Lookup:
@@ -466,37 +466,10 @@ http_interactions:
       Connection:
       - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c29hcDpF
-        bnZlbG9wZSB4bWxuczpzb2FwPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9y
-        Zy9zb2FwL2VudmVsb3BlLyIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9y
-        Zy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8v
-        d3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+PHNvYXA6Qm9keT48Q2FkYXN0
-        cmFyQ2xpZW50ZVJlc3BvbnNlIHhtbG5zPSJodHRwOi8vd3d3LmtwbHNvbHVj
-        b2VzLmNvbS5ici9BQkFDT1NXZWJTZXJ2aWNlIj48Q2FkYXN0cmFyQ2xpZW50
-        ZVJlc3VsdD48VmVyc2FvV2ViU2VydmljZT41LjBCLjAwNTc8L1ZlcnNhb1dl
-        YlNlcnZpY2U+PFJlc3VsdGFkb09wZXJhY2FvPjxDb2RpZ28+MTAwMDAxPC9D
-        b2RpZ28+PERlc2NyaWNhbz5PY29ycmVyYW0gZXJyb3MgZHVyYW50ZSBhIG9i
-        dGVuw6fDo28gZGFzIGluZm9ybWHDp8O1ZXMgcGVydGluZW50ZXMgYSBsaXN0
-        YSBkZSBpdGVucy4gVmVyaWZpcXVlIG8gcmV0b3JubyBlbSBjYWRhIGl0ZW0g
-        cGFyYSBtYWlvcmVzIGRldGFsaGVzLjwvRGVzY3JpY2FvPjxUaXBvPnRkcmVB
-        bGVydGE8L1RpcG8+PC9SZXN1bHRhZG9PcGVyYWNhbz48Um93cz48RGFkb3ND
-        bGllbnRlc1Jlc3VsdGFkbz48Q1BGb3VDTlBKPjE1NDM2OTQwMDAwMjg2PC9D
-        UEZvdUNOUEo+PFRpcG9QZXNzb2E+dHBlRmlzaWNhPC9UaXBvUGVzc29hPjxS
-        ZXN1bHRhZG8+PENvZGlnbz4zMDAwMDU8L0NvZGlnbz48RGVzY3JpY2FvPkEg
-        ZXhlY3XDp8OjbyBkYSByb3RpbmEgZ2Vyb3UgdW1hIGNyw610aWNhLiBEZXRh
-        bGhlczogKiBPcmlnZW06IEluY2x1aXIgY2xpZW50ZXMgKiBMaW5oYSBlbSBx
-        dWUgb2NvcnJldSBvIGVycm86IDM2ICogTm9tZSBkbyBvYmpldG8gb25kZSBv
-        Y29ycmV1IG8gZXJybzogUEdFTl9QX1JBSVNFUlJPUiAqIEPDs2RpZ28gZGUg
-        ZXJybyBkbyBiYW5jbyBkZSBkYWRvczogODgxMDQ8L0Rlc2NyaWNhbz48VGlw
-        bz50ZHJlRXJyb0RhdGFCYXNlPC9UaXBvPjxFeGNlcHRpb25NZXNzYWdlPklu
-        dGVyZmFjZSA9IDI2IE1zZyA9IGZhbHRhIGNvbmZpZ3VyYXIgYSBjYXRlZ29y
-        aWEgZmlzY2FsIGRvIGNsaWVudGUNCkVycm8gYW8gY2FkYXN0cmFyIGNsaWVu
-        dGU8L0V4Y2VwdGlvbk1lc3NhZ2U+PC9SZXN1bHRhZG8+PC9EYWRvc0NsaWVu
-        dGVzUmVzdWx0YWRvPjwvUm93cz48L0NhZGFzdHJhckNsaWVudGVSZXN1bHQ+
-        PC9DYWRhc3RyYXJDbGllbnRlUmVzcG9uc2U+PC9zb2FwOkJvZHk+PC9zb2Fw
-        OkVudmVsb3BlPg0K
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><CadastrarClienteResponse
+        xmlns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"><CadastrarClienteResult><VersaoWebService>5.0B.0057</VersaoWebService><ResultadoOperacao><Codigo>200002</Codigo><Descricao>OK.</Descricao><Tipo>tdreSucesso</Tipo></ResultadoOperacao><Rows><DadosClientesResultado><CPFouCNPJ>15436940000286</CPFouCNPJ><TipoPessoa>tpeFisica</TipoPessoa><Resultado><Codigo>200002</Codigo><Descricao>OK.</Descricao><Tipo>tdreSucesso</Tipo></Resultado></DadosClientesResultado></Rows></CadastrarClienteResult></CadastrarClienteResponse></soap:Body></soap:Envelope>\r\n"
     http_version: 
-  recorded_at: Tue, 01 Apr 2014 23:52:13 GMT
+  recorded_at: Wed, 02 Apr 2014 16:09:30 GMT
 recorded_with: VCR 2.8.0
