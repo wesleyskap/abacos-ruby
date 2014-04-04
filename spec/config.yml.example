@@ -1,0 +1,8 @@
+ws:
+  endpoint: "http://200.201.203.131:8034/abacoswebsvc"
+db:
+  host: 200.201.203.131
+  password: sistemaHomologd
+  port: 1434
+  username: sistema
+token: "FD803D46-5C5E-4754-930C-358446DFA79E"

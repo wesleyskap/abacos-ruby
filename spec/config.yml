@@ -1,8 +1,0 @@
-ws:
-  endpoint: "http://0.0.0.0:8034/abacoswebsvc"
-db:
-  host: "0.0.0.0"
-  password: "password"
-  port: 1433
-  username: "user"
-token: "FD803D46-5C5E-5865-930C-358446DFA79E"
