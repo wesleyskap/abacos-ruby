@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://200.201.203.131:8034/abacoswebsvc/AbacosWSProdutos.asmx
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><env:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:tns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"
+        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:ProdutosDisponiveis><tns:ChaveIdentificacao>67FCF2E1-04A0-4705-8355-49D36122E30E</tns:ChaveIdentificacao></tns:ProdutosDisponiveis></env:Body></env:Envelope>"
+    headers:
+      Soapaction:
+      - "\"http://www.kplsolucoes.com.br/ABACOSWebService/ProdutosDisponiveis\""
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '510'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Tue, 29 Apr 2014 16:31:35 GMT
+      Content-Length:
+      - '606'
+      X-Cache:
+      - MISS from localhost
+      X-Cache-Lookup:
+      - MISS from localhost:3128
+      Via:
+      - 1.1 localhost (squid/3.3.10)
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c29hcDpF
+        bnZlbG9wZSB4bWxuczpzb2FwPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9y
+        Zy9zb2FwL2VudmVsb3BlLyIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9y
+        Zy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8v
+        d3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+PHNvYXA6Qm9keT48UHJvZHV0
+        b3NEaXNwb25pdmVpc1Jlc3BvbnNlIHhtbG5zPSJodHRwOi8vd3d3LmtwbHNv
+        bHVjb2VzLmNvbS5ici9BQkFDT1NXZWJTZXJ2aWNlIj48UHJvZHV0b3NEaXNw
+        b25pdmVpc1Jlc3VsdD48VmVyc2FvV2ViU2VydmljZT41LjBCLjAwNzk8L1Zl
+        cnNhb1dlYlNlcnZpY2U+PFJlc3VsdGFkb09wZXJhY2FvPjxDb2RpZ28+MjAw
+        MDAzPC9Db2RpZ28+PERlc2NyaWNhbz5PSywgcG9yw6ltIG7Do28gaMOhIGRh
+        ZG9zLjwvRGVzY3JpY2FvPjxUaXBvPnRkcmVTdWNlc3NvU2VtRGFkb3M8L1Rp
+        cG8+PC9SZXN1bHRhZG9PcGVyYWNhbz48L1Byb2R1dG9zRGlzcG9uaXZlaXNS
+        ZXN1bHQ+PC9Qcm9kdXRvc0Rpc3Bvbml2ZWlzUmVzcG9uc2U+PC9zb2FwOkJv
+        ZHk+PC9zb2FwOkVudmVsb3BlPg0K
+    http_version: 
+  recorded_at: Tue, 29 Apr 2014 16:31:40 GMT
+recorded_with: VCR 2.8.0

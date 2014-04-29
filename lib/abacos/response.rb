@@ -12,7 +12,7 @@ module Abacos
     end
 
     def each(&block)
-      doc[:rows].values.first.each &block
+      (doc.has_key?(:rows) ? doc[:rows].values.first : []).each &block
     end
 
     def success?
