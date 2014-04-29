@@ -16,7 +16,7 @@ module Abacos
     end
 
     def success?
-      doc[:resultado_operacao][:tipo] == "tdreSucesso"
+      (doc.has_key?(:tipo) ? doc : doc[:resultado_operacao])[:tipo] == "tdreSucesso"
     end
 
     private

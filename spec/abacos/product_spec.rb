@@ -20,4 +20,12 @@ describe Abacos::Product do
       Abacos::Product.find_by_ean("9788525045768").codigo_produto.should == "135004"
     end
   end
+
+  describe "#confirm!" do
+    it "should confirm the product" do
+      VCR.use_cassette('products_confirm') do
+        Abacos::Product.new(protocolo_produto: 'A832B556-2B47-4437-B5A6-E41B93C1892D').confirm!.should be_success
+      end
+    end
+  end
 end

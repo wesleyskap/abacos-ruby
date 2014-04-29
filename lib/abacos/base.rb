@@ -19,7 +19,10 @@ module Abacos
     end
 
     def initialize(params)
-      params.each { |key, value| instance_variable_set "@#{key}", value }
+      params.each do |key, value|
+        instance_variable_set "@#{key}", value
+        define_singleton_method(key) { instance_variable_get "@#{key}" }
+      end
     end
 
     def persisted?
