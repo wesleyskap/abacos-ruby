@@ -3,7 +3,7 @@ module Abacos
     attr_reader :codigo_barras, :codigo_produto
     self.ws = "Produtos"
 
-    def self.updated(params)
+    def self.available(params)
       call(:produtos_disponiveis, params).map { |params| new params }
     end
 
