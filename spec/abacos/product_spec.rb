@@ -10,7 +10,13 @@ describe Abacos::Product do
 
     it "should return an empty array when no data" do
       VCR.use_cassette('products_available_empty') do
-        Abacos::Product.available(chave_identificacao: ABACOS_CONFIG['token2']).should be_empty
+        Abacos::Product.available(chave_identificacao: ABACOS_CONFIG['token_no_products']).should be_empty
+      end
+    end
+
+    it "should work when there is only a product" do
+      VCR.use_cassette('products_available_one') do
+        Abacos::Product.available(chave_identificacao: ABACOS_CONFIG['token_one_product']).size.should == 1
       end
     end
   end

@@ -12,7 +12,7 @@ module Abacos
     end
 
     def each(&block)
-      (doc.has_key?(:rows) ? doc[:rows].values.first : []).each &block
+      (doc.has_key?(:rows) ? extract_values(doc[:rows]) : []).each &block
     end
 
     def success?
@@ -20,6 +20,10 @@ module Abacos
     end
 
     private
+
+    def extract_values(rows)
+      [rows.values.first].flatten
+    end
 
     def doc
       @savon.body["#{@method}_response".to_sym]["#{@method}_result".to_sym]
