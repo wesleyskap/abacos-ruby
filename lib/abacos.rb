@@ -10,6 +10,7 @@ require "abacos/payment_method"
 require "abacos/price"
 require "abacos/product"
 require "abacos/response"
+require "abacos/stock"
 
 module Abacos
   def self.config!(config)
