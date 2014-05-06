@@ -1,8 +1,11 @@
 ws:
-  endpoint: "http://200.201.203.131:8034/abacoswebsvc"
+  endpoint: "http://0.0.0.0/abacoswebsvc"
 db:
-  host: 200.201.203.131
-  password: sistemaHomologd
+  host: 0.0.0.0
+  password: password
   port: 1434
-  username: sistema
+  username: user
 token: "FD803D46-5C5E-4754-930C-358446DFA79E"
+token_no_products: "67FCF2E1-04A0-4705-8355-49D36122E30E"
+token_one_product: "39BECD91-9548-4312-8D67-201B604BB80A"
+token_prices: "67FCF2E1-04A0-4705-8355-49D36122E30E"
