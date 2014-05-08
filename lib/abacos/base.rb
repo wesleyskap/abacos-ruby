@@ -3,23 +3,31 @@ module Abacos
     attr_reader :response
 
     def self.available(params)
-      call(:"#{resource_name}s_disponiveis", params).map { |params| new params }
+      call(:"#{collection_name}_disponiveis", params).map { |params| new params }
     end
 
     def confirm!
       self.class.call(:"confirmar_recebimento_#{self.class.resource_name}", :"protocolo_#{self.class.resource_name}" => send("protocolo_#{self.class.resource_name}"))
     end
 
-    def self.ws=(service)
-      @service = service
-    end
+    class << self
+      %w(ws resource_name collection_name).each do |attribute|
+        define_method "#{attribute}=" do |param|
+          instance_variable_set "@#{attribute}", param
+        end
 
-    def self.resource_name=(resource_name)
-      @resource_name = resource_name
+        define_method "#{attribute}" do
+          instance_variable_get "@#{attribute}"
+        end
+      end
+
+      def collection_name
+        @collection_name ||= "#{resource_name}s"
+      end
     end
 
     def self.call(method, params)
-      Response.new method, ws.call(method, message: params)
+      Response.new method, api.call(method, message: params)
     end
 
     def self.create(method, params)
@@ -43,12 +51,8 @@ module Abacos
 
     private
 
-    def self.resource_name
-      @resource_name
-    end
-
-    def self.ws
-      @ws ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{@service}.asmx?wsdl", log: false do
+    def self.api
+      @api ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{ws}.asmx?wsdl", log: false do
         convert_request_keys_to :camelcase
       end
     end

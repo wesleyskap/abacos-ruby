@@ -10,4 +10,12 @@ describe Abacos::Order do
       end
     end
   end
+
+  describe ".confirm_payment!" do
+    it "should confirm a payment" do
+      VCR.use_cassette('order_confirm_payment') do
+        Abacos::Order.confirm_payment!({ numero_pedido: '434169', data_pagamento: '09042014 11:00', cartao_codigo_autorizacao: '24710053', status_pagamento: 'speConfirmado' }, { chave_identificacao: ABACOS_CONFIG['token_payment'] }).should be_success
+      end
+    end
+  end
 end
