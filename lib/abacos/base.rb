@@ -52,13 +52,13 @@ module Abacos
     private
 
     def self.api
-      @api ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{ws}.asmx?wsdl", log: false do
+      @api ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{ws}.asmx?wsdl", log: Abacos.config['log'] do
         convert_request_keys_to :camelcase
       end
     end
 
     def self.db
-      @db ||= TinyTds::Client.new(Hash[Abacos.config['db'].map{ |k, v| [k.to_sym, v] }])
+      TinyTds::Client.new(Hash[Abacos.config['db'].map{ |k, v| [k.to_sym, v] }])
     end
 
     def self.endpoint
