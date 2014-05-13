@@ -18,4 +18,12 @@ describe Abacos::Order do
       end
     end
   end
+
+  describe ".statuses" do
+     it "should return the statuses" do
+      VCR.use_cassette('orders_statuses') do
+        Abacos::Order.statuses(chave_identificacao: ABACOS_CONFIG['token_orders_statuses']).first[:status_pedido].should == "A ENVIAR"
+      end
+     end
+  end
 end

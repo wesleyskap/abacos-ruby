@@ -10,5 +10,9 @@ module Abacos
     def self.confirm_payment!(*params, chave_identificacao:)
       call :confirmar_pagamentos_pedidos, { chave_identificacao: chave_identificacao }.merge(lista_de_pagamentos: params.map { |param| { dados_pgto_pedido: param }})
     end
+
+    def self.statuses(chave_identificacao:)
+      call :status_pedido_disponiveis, { chave_identificacao: chave_identificacao }
+    end
   end
 end

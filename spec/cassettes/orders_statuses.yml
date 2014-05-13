@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://200.201.203.131:8034/abacoswebsvc/AbacosWSPedidos.asmx
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><env:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:tns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"
+        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:StatusPedidoDisponiveis><tns:ChaveIdentificacao>E307DE7F-ABE5-4783-9D9B-A36C6A52B8CF</tns:ChaveIdentificacao></tns:StatusPedidoDisponiveis></env:Body></env:Envelope>"
+    headers:
+      Soapaction:
+      - "\"http://www.kplsolucoes.com.br/ABACOSWebService/StatusPedidoDisponiveis\""
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '518'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Tue, 13 May 2014 18:56:28 GMT
+      Content-Length:
+      - '1692'
+      X-Cache:
+      - MISS from localhost
+      X-Cache-Lookup:
+      - MISS from localhost:3128
+      Via:
+      - 1.1 localhost (squid/3.3.10)
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c29hcDpF
+        bnZlbG9wZSB4bWxuczpzb2FwPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9y
+        Zy9zb2FwL2VudmVsb3BlLyIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9y
+        Zy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8v
+        d3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSI+PHNvYXA6Qm9keT48U3RhdHVz
+        UGVkaWRvRGlzcG9uaXZlaXNSZXNwb25zZSB4bWxucz0iaHR0cDovL3d3dy5r
+        cGxzb2x1Y29lcy5jb20uYnIvQUJBQ09TV2ViU2VydmljZSI+PFN0YXR1c1Bl
+        ZGlkb0Rpc3Bvbml2ZWlzUmVzdWx0PjxWZXJzYW9XZWJTZXJ2aWNlPjUuMEIu
+        MDA3OTwvVmVyc2FvV2ViU2VydmljZT48UmVzdWx0YWRvT3BlcmFjYW8+PENv
+        ZGlnbz4yMDAwMDE8L0NvZGlnbz48RGVzY3JpY2FvPk9wZXJhw6fDo28gIlN0
+        YXR1cyBkZSBwZWRpZG9zIiBlZmV0dWFkYSBjb20gc3VjZXNzby48L0Rlc2Ny
+        aWNhbz48VGlwbz50ZHJlU3VjZXNzbzwvVGlwbz48L1Jlc3VsdGFkb09wZXJh
+        Y2FvPjxSb3dzPjxEYWRvc1N0YXR1c1BlZGlkbz48UHJvdG9jb2xvU3RhdHVz
+        UGVkaWRvPkQ4MkVDRDQxLUQzMUMtNDdFRi04M0Q4LTk0MTMzN0VENEFERjwv
+        UHJvdG9jb2xvU3RhdHVzUGVkaWRvPjxOdW1lcm9QZWRpZG8+NDM0ODIzPC9O
+        dW1lcm9QZWRpZG8+PENvZGlnb1BlZGlkb0FiYWNvcz4wPC9Db2RpZ29QZWRp
+        ZG9BYmFjb3M+PENvZGlnb1N0YXR1cz4yMjwvQ29kaWdvU3RhdHVzPjxTdGF0
+        dXNQZWRpZG8+QSBFTlZJQVI8L1N0YXR1c1BlZGlkbz48RGF0YUhvcmE+MDgw
+        NDIwMTQgMTE6NDY6MjAuMzAwPC9EYXRhSG9yYT48U2VyaWVOb3RhPjEgIDwv
+        U2VyaWVOb3RhPjxOdW1lcm9Ob3RhPjUxODc3PC9OdW1lcm9Ob3RhPjxEYXRh
+        RW1pc3Nhb05vdGE+MDgwNDIwMTQgMTE6NDY6MjAuMDIwPC9EYXRhRW1pc3Nh
+        b05vdGE+PE51bWVyb09iamV0bz5SRTk4MjU2NTQxN0JSIDwvTnVtZXJvT2Jq
+        ZXRvPjxRdWFudGlkYWRlVm9sdW1lcz4xPC9RdWFudGlkYWRlVm9sdW1lcz48
+        Q29kaWdvTW90aXZvQ2FuY2VsYW1lbnRvIC8+PE1vdGl2b0NhbmNlbGFtZW50
+        byAvPjwvRGFkb3NTdGF0dXNQZWRpZG8+PERhZG9zU3RhdHVzUGVkaWRvPjxQ
+        cm90b2NvbG9TdGF0dXNQZWRpZG8+MEJCRjNCMTUtNDQ0Qi00NDE2LTgxRjkt
+        MTU5QjkzMjcxRDZFPC9Qcm90b2NvbG9TdGF0dXNQZWRpZG8+PE51bWVyb1Bl
+        ZGlkbz40MzQxNjk8L051bWVyb1BlZGlkbz48Q29kaWdvUGVkaWRvQWJhY29z
+        PjA8L0NvZGlnb1BlZGlkb0FiYWNvcz48Q29kaWdvU3RhdHVzPjE5PC9Db2Rp
+        Z29TdGF0dXM+PFN0YXR1c1BlZGlkbz5QQUdBTUVOVE8gQ09ORklSTUFETzwv
+        U3RhdHVzUGVkaWRvPjxEYXRhSG9yYT4wODA1MjAxNCAyMDoxMTo0Mi45NjA8
+        L0RhdGFIb3JhPjxTZXJpZU5vdGEgLz48TnVtZXJvTm90YT4wPC9OdW1lcm9O
+        b3RhPjxEYXRhRW1pc3Nhb05vdGEgLz48TnVtZXJvT2JqZXRvIC8+PFF1YW50
+        aWRhZGVWb2x1bWVzPjA8L1F1YW50aWRhZGVWb2x1bWVzPjxDb2RpZ29Nb3Rp
+        dm9DYW5jZWxhbWVudG8gLz48TW90aXZvQ2FuY2VsYW1lbnRvIC8+PC9EYWRv
+        c1N0YXR1c1BlZGlkbz48L1Jvd3M+PC9TdGF0dXNQZWRpZG9EaXNwb25pdmVp
+        c1Jlc3VsdD48L1N0YXR1c1BlZGlkb0Rpc3Bvbml2ZWlzUmVzcG9uc2U+PC9z
+        b2FwOkJvZHk+PC9zb2FwOkVudmVsb3BlPg0K
+    http_version: 
+  recorded_at: Tue, 13 May 2014 18:55:52 GMT
+recorded_with: VCR 2.8.0
