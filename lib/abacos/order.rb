@@ -12,7 +12,7 @@ module Abacos
     end
 
     def self.statuses(chave_identificacao:)
-      call :status_pedido_disponiveis, { chave_identificacao: chave_identificacao }
+      call(:status_pedido_disponiveis, { chave_identificacao: chave_identificacao }).map { |params| OrderStatus.new params }
     end
   end
 end
