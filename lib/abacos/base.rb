@@ -52,7 +52,7 @@ module Abacos
     private
 
     def self.api
-      @api ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{ws}.asmx?wsdl", log: Abacos.config['log'] do
+      @api ||= Savon.client wsdl: "#{endpoint}/AbacosWS#{ws}.asmx?wsdl", log: Abacos.config['log'], read_timeout: 600, open_timeout: 600 do
         convert_request_keys_to :camelcase
       end
     end
