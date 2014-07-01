@@ -14,5 +14,11 @@ module Abacos
     def self.statuses(chave_identificacao:)
       call(:status_pedido_disponiveis, { chave_identificacao: chave_identificacao }).map { |params| OrderStatus.new params }
     end
+
+    def self.exist?(*ids, chave_identificacao:)
+      {}.tap do |hash|
+        call(:pedido_existe, { chave_identificacao: chave_identificacao, lista_de_numeros_de_pedidos: { 'string' => ids }}).each { |data| hash[data[:numero_do_pedido]] = OrderData.new data }
+      end
+    end
   end
 end

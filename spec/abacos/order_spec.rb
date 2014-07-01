@@ -23,7 +23,17 @@ describe Abacos::Order do
      it "should return the statuses" do
       VCR.use_cassette('orders_statuses') do
         Abacos::Order.statuses(chave_identificacao: ABACOS_CONFIG['token_orders_statuses']).first.status_pedido.should == "A ENVIAR"
-      end
+        end
      end
+  end
+
+  describe "exist?" do
+    it "should return if orders exist" do
+      VCR.use_cassette('orders_exist') do
+        data = Abacos::Order.exist?('125325441', '09023539454', chave_identificacao: ABACOS_CONFIG['token_orders_statuses'])
+        data['09023539454'].status_atual.should == 'tspeeNaoEncontrado'
+        data['125325441'].existente.should be_false
+      end
+    end
   end
 end

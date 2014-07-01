@@ -1,0 +1,113 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://200.201.203.131:8034/abacoswebsvc/AbacosWSPedidos.asmx
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><env:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:tns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"
+        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:PedidoExiste><tns:ChaveIdentificacao>E307DE7F-ABE5-4783-9D9B-A36C6A52B8CF</tns:ChaveIdentificacao><tns:ListaDeNumerosDePedidos><tns:string>125325441</tns:string><tns:string>09023539454</tns:string></tns:ListaDeNumerosDePedidos></tns:PedidoExiste></env:Body></env:Envelope>"
+    headers:
+      Soapaction:
+      - "\"http://www.kplsolucoes.com.br/ABACOSWebService/PedidoExiste\""
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '625'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Tue, 01 Jul 2014 19:41:15 GMT
+      Content-Length:
+      - '1054'
+      X-Cache:
+      - MISS from localhost
+      X-Cache-Lookup:
+      - MISS from localhost:3128
+      Via:
+      - 1.1 localhost (squid/3.3.10)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><PedidoExisteResponse
+        xmlns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"><PedidoExisteResult><VersaoWebService>5.0B.0081</VersaoWebService><ResultadoOperacao><Codigo>0</Codigo><Tipo>tdreIndefinido</Tipo></ResultadoOperacao><Rows><DadosPedidosExistentes><NumeroDoPedido>125325441</NumeroDoPedido><Existente>false</Existente><StatusAtual>tspeeNaoEncontrado</StatusAtual><Resultado><Codigo>200002</Codigo><Descricao>OK.</Descricao><Tipo>tdreSucesso</Tipo></Resultado></DadosPedidosExistentes><DadosPedidosExistentes><NumeroDoPedido>09023539454</NumeroDoPedido><Existente>false</Existente><StatusAtual>tspeeNaoEncontrado</StatusAtual><Resultado><Codigo>200002</Codigo><Descricao>OK.</Descricao><Tipo>tdreSucesso</Tipo></Resultado></DadosPedidosExistentes></Rows></PedidoExisteResult></PedidoExisteResponse></soap:Body></soap:Envelope>\r\n"
+    http_version: 
+  recorded_at: Tue, 01 Jul 2014 19:39:57 GMT
+- request:
+    method: post
+    uri: http://200.201.203.131:8034/abacoswebsvc/AbacosWSPedidos.asmx
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><env:Envelope xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:tns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"
+        xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ins0=\"http://www.kplsolucoes.com.br/ABACOSWebService/AbstractTypes\"><env:Body><tns:PedidoExiste><tns:ChaveIdentificacao>E307DE7F-ABE5-4783-9D9B-A36C6A52B8CF</tns:ChaveIdentificacao><tns:ListaDeNumerosDePedidos><tns:string>125325441</tns:string><tns:string>09023539454</tns:string></tns:ListaDeNumerosDePedidos></tns:PedidoExiste></env:Body></env:Envelope>"
+    headers:
+      Soapaction:
+      - "\"http://www.kplsolucoes.com.br/ABACOSWebService/PedidoExiste\""
+      Content-Type:
+      - text/xml;charset=UTF-8
+      Content-Length:
+      - '625'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Server:
+      - Microsoft-IIS/7.5
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Tue, 01 Jul 2014 19:56:39 GMT
+      Content-Length:
+      - '1054'
+      X-Cache:
+      - MISS from localhost
+      X-Cache-Lookup:
+      - MISS from localhost:3128
+      Via:
+      - 1.1 localhost (squid/3.3.10)
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"><soap:Body><PedidoExisteResponse
+        xmlns=\"http://www.kplsolucoes.com.br/ABACOSWebService\"><PedidoExisteResult><VersaoWebService>5.0B.0081</VersaoWebService><ResultadoOperacao><Codigo>0</Codigo><Tipo>tdreIndefinido</Tipo></ResultadoOperacao><Rows><DadosPedidosExistentes><NumeroDoPedido>125325441</NumeroDoPedido><Existente>false</Existente><StatusAtual>tspeeNaoEncontrado</StatusAtual><Resultado><Codigo>200002</Codigo><Descricao>OK.</Descricao><Tipo>tdreSucesso</Tipo></Resultado></DadosPedidosExistentes><DadosPedidosExistentes><NumeroDoPedido>09023539454</NumeroDoPedido><Existente>false</Existente><StatusAtual>tspeeNaoEncontrado</StatusAtual><Resultado><Codigo>200002</Codigo><Descricao>OK.</Descricao><Tipo>tdreSucesso</Tipo></Resultado></DadosPedidosExistentes></Rows></PedidoExisteResult></PedidoExisteResponse></soap:Body></soap:Envelope>\r\n"
+    http_version: 
+  recorded_at: Tue, 01 Jul 2014 19:55:22 GMT
+recorded_with: VCR 2.8.0
