@@ -14,6 +14,7 @@ require "abacos/price"
 require "abacos/product"
 require "abacos/response"
 require "abacos/stock"
+require "abacos/shipping"
 
 module Abacos
   def self.config!(config)
