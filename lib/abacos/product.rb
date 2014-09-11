@@ -4,7 +4,7 @@ module Abacos
     self.resource_name = "produto"
 
     def self.find_by_ean(ean)
-      execute("select codigo_produto = pros_ext_cod from abacos..tcom_proser with (nolock) where pros_bar = #{ean}").first
+      execute("select codigo_produto = pros_ext_cod, weight = pros_pes from abacos..tcom_proser with (nolock) where pros_bar = #{ean}").first
     end
   end
 end
