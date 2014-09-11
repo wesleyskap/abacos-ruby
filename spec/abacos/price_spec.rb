@@ -16,4 +16,12 @@ describe Abacos::Price do
       end
     end
   end
+
+  describe ".find_by_sku_and_table" do
+    it 'should return the price by the sku and table' do
+      price = Abacos::Price.find_by_sku_and_table '2', 1
+      expect(price.list_value).to_not be_nil
+      expect(price.sell_value).to_not be_nil
+    end
+  end
 end
