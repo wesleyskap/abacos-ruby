@@ -16,4 +16,10 @@ describe Abacos::Stock do
       end
     end
   end
+
+  describe ".find_by_sku" do
+    it 'should find a stock by sku' do
+      Abacos::Stock.find_by_sku("128258").value.should_not be_nil
+    end
+  end
 end
