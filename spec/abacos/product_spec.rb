@@ -44,4 +44,10 @@ describe Abacos::Product do
       end
     end
   end
+
+  describe ".all_active_by_cnpj" do
+    it "should all active products by cnpj" do
+      Abacos::Product.all_active_by_cnpj('00000000148655').first.pros_cod.should == 394990
+    end
+  end
 end
