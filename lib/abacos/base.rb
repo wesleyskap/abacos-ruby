@@ -58,7 +58,7 @@ module Abacos
     end
 
     def self.db
-      @db ||= TinyTds::Client.new(Hash[Abacos.config['db'].map{ |k, v| [k.to_sym, v] }])
+      TinyTds::Client.new(Hash[Abacos.config['db'].map{ |k, v| [k.to_sym, v] }])
     end
 
     def self.endpoint
